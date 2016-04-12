@@ -7,7 +7,7 @@ public class TestAlg{
 	public static void getBeerData(){
 		
 		Beer shinerBock = new Beer("Shiner Bock", "Bock", 18.0, 4.4, 13, 1.046, 1.009, "Spoetzl Brewery");
-		Beer guinnessDraught = new Beer("Guinness Draught", "Irish Dry Stout", 40, 4.2, 45, 1.038, 1.006, "Guinness");
+		Beer guinnessDraught = new Beer("Guinness Draught", "Irish Dry Stout", 40, 4.2, 45, 1.038, 1.006, "Guinnatess");
 		Beer shinerPremium = new Beer("Shiner Premium", "Pale Lager", 6.0, 4.4, 13, 1.046, 1.009, "Spoetzl Brewery");
 		Beer shinerBlack = new Beer("Shiner Black Lager", "Black Beer", 25.0, 4.9, 26, 1.047, 1.015, "Spoetzl Brewery");
 		Beer fullSailPilsner = new Beer("Full Sail Pilsner", "Pilsner", 3, 6, 60, 1.042, 1.007, "Full Sail Brewing");
