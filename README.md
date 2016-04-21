@@ -5,7 +5,7 @@ Use one of the following beer names
 Shiner Bock  
 Shiner Premium  
 Shimer Black  
-Guiness  
+Guiness Draught  
 Luchesa Lager  
 Full Sail Pilsner  
 Sam Adams Black Lager  
