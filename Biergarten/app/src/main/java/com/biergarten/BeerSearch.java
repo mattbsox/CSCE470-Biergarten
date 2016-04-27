@@ -1,5 +1,6 @@
 package com.biergarten;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -27,8 +28,9 @@ public class BeerSearch extends AppCompatActivity {
             searchButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                            .setAction("Action", null).show();
+                    Intent myIntent = new Intent(BeerSearch.this, beerSearchResults.class);
+                    myIntent.putExtra("searchQuery", "Shiner Black Lager");
+                    BeerSearch.this.startActivity(myIntent);
                 }
             });
         }
