@@ -1,7 +1,7 @@
-
+import java.io.Serializable;
 import java.util.ArrayList;
 
-class Beer{
+class Beer implements Serializable{
 	String name;
 	String type;
 	double color;
@@ -11,6 +11,7 @@ class Beer{
 	double finalGrav;
 	String brewery;
 	String description;
+	//String imageLoc;
 
 	public Beer(){}
 
@@ -25,6 +26,7 @@ class Beer{
 		finalGrav 	= fG;
 		brewery 	= brew;
 		//description = desc;
+		//imageLoc = image;
 
 	}
 
